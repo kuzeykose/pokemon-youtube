@@ -20,12 +20,8 @@ function App() {
       </div>
       <Container>
         <Switch>
-          <Route path="/home">
-            <Home />
-          </Route>
-          <Route path="/pokemon/:pokemonName">
-            <Pokemon />
-          </Route>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/pokemon/:pokemonName" component={Pokemon} />
         </Switch>
       </Container>
     </Router>

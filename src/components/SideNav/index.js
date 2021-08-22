@@ -9,10 +9,10 @@ import {
 const SideNav = () => {
   return (
     <Container>
-      <MenuItems href={'/home'}>
+      <MenuItems href={'/'}>
         <img height={85} src={logo} />
       </MenuItems>
-      <MenuItems href={'/home'}>Home</MenuItems>
+      <MenuItems href={'/'}>Home</MenuItems>
     </Container>
   )
 }
